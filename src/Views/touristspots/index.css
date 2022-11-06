@@ -1,0 +1,24 @@
+.Navbar{
+    width: 100%;
+    height: 10%;
+    background-color: #1C3558;
+    box-shadow: rgba(0, 0, 0, 0.781) 0px 5px 15px;
+    z-index: 2;
+}
+
+.Navbar img {
+    width: 80px;
+    height: 70px;
+}
+
+.section-touristspots {
+    width: 100%;
+    height: auto;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 1.7rem;
+    background-color: #1c3558ec;
+    padding: 1rem 0 0 0;
+}

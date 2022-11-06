@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../Image/image-removebg-preview.png'
+import Logo from '../../Image/logo.png'
 import "./index.css"
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
           <p className='typing-demo'>Descubra, explore e encante-se!</p>
         </div>
         <div className='item-2'>
-          <button>Ver Mais</button>
+          <button><a href='/pontosturisticos'>Ver mais</a></button>
         </div>
         <div className='item-3'/>
       </section>

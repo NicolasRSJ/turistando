@@ -90,6 +90,11 @@ section {
     background-color: #007ebd;
 }
 
+.item-2 button a {
+    text-decoration: none;
+    color: white;
+}
+
 .item-3 { 
     grid-area: slider; 
     background-size: 99.5% 100%;
