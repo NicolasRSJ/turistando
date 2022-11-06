@@ -8,8 +8,8 @@ const Touristspots = () => {
 
   return (
     <React.Fragment>
-        <nav className='Navbar'>
-        <img src={Logo} alt="logo" />
+      <nav className='Navbar'>
+        <a href='/'><img src={Logo} alt="logo" /></a>
       </nav>
       <div className='section-touristspots'>
         {
@@ -21,6 +21,8 @@ const Touristspots = () => {
                 name={item.name}
                 description={item.description}
                 address={item.address}
+                linkMaps={item.linkMaps}
+                linkComments={item.linkComments}
               />
             )
           })

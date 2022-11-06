@@ -90,3 +90,8 @@
     background-color: #0082c4;
     cursor: pointer;
 }
+
+.footer-pop-up button a {
+    text-decoration: none;
+    color: white;
+}
