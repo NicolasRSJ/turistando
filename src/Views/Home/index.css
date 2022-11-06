@@ -1,0 +1,102 @@
+.Navbar{
+    width: 100%;
+    height: 10%;
+    background-color: #1C3558;
+    box-shadow: rgba(0, 0, 0, 0.781) 0px 5px 15px;
+    z-index: 2;
+}
+
+.Navbar img {
+    width: 80px;
+    height: 70px;
+}
+
+section {
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-areas:
+    'text text slider slider slider slider'
+    'button button slider slider slider slider';
+    background-color: #1c3558ea;
+}
+
+.item-1 { 
+    grid-area: text; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-1 h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #0097E1;
+    width: 300px;
+}
+
+.item-1 h1 span {
+    color: white;
+}
+
+.item-1 p {
+    font-size: 1.3rem;
+    color: #F19BBF;
+    font-weight: 500;
+}
+
+.item-1 .typing-demo {
+    width: 300px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.item-2 { 
+    grid-area: button; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-2 button {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: #0097E1;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item-2 button:hover {
+    background-color: #007ebd;
+}
+
+.item-3 { 
+    grid-area: slider; 
+    background-size: 99.5% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    filter: brightness(80%);
+    background-image: url('../../Image/convento_da_penha.jpg');
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
