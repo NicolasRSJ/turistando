@@ -16,8 +16,8 @@ const Popup = (props) => {
                 <p><span>Endereço:</span> {props.address}</p>
             </div>
             <div className='footer-pop-up'>
-                <button><a href={props.linkMaps}>Ver no Mapa</a></button>
-                <button><a href={props.linkComments} >Comentário</a></button>
+                <button onClick={() => window.location.href = props.linkMaps }>Ver no Mapa</button>
+                <button onClick={() => window.location.href = props.linkComments }>Comentário</button>
             </div>
         </div>
     </React.Fragment>

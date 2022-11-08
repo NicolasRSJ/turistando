@@ -8,6 +8,8 @@ import Image7 from '../Image/Praia da Biologia Aracruz-600-200.png';
 import Image8 from '../Image/Praia do morcego-600x200.png';
 import Image9 from '../Image/Praia do Morro-600x200.png';
 import Image10 from '../Image/Sesc Praia Formosa - Aracruz.png';
+import Image11 from '../Image/Restaurante Frutos da Ilha.jpg';
+import Image12 from '../Image/Silvas Restaurantes.jpg';
 
 export const data = [
     {
@@ -22,7 +24,7 @@ export const data = [
     {
         id: 2,
         image: Image2,
-        name: 'Conveto da Penha',
+        name: 'Convento da Penha',
         description: ' Uma igreja no topo de uma montanha, primeira igreja do estado.',
         address: 'R. Vasco Coutinho - Prainha, Vila Velha',
         linkMaps: 'https://www.google.com/maps/place/Convento+da+Penha/@-20.3293623,-40.287069,15z/data=!4m2!3m1!1s0x0:0xa2c5411362c10f93?sa=X&ved=2ahUKEwj9prWRhZn7AhVRppUCHQghCscQ_BJ6BQiIARAF',
@@ -77,7 +79,7 @@ export const data = [
         id: 8,
         image: Image8,
         name: 'Praia do Morcego',
-        description: 'Praia secreta (não tão secreta) com uma vibe de exploração ao desconhecido ',
+        description: 'Uma praia com vibe de exploração ao desconhecido.',
         address: 'Unnamed Rd - Guarapari',
         linkMaps: 'https://www.google.com/maps/place/Praia+do+Morcego/@-20.6326584,-40.4693158,15z/data=!3m1!4b1!4m5!3m4!1s0xb859fdb3f42635:0x2928f084df06658c!8m2!3d-20.6326588!4d-40.4693158',
         linkComments: 'https://www.google.com/search?q=praia+do+morcego&oq=Praia+do+morcego&aqs=chrome.0.35i39i355j46i39i512j46i175i199i512l2j0i512j46i512j69i60l2.4101j0j4&sourceid=chrome&ie=UTF-8#lrd=0xb859fdb3f42635:0x2928f084df06658c,1,,,'
@@ -95,9 +97,27 @@ export const data = [
         id: 10,
         image: Image10,
         name: 'Sesc Praia Formosa',
-        description: 'Parque aquático do lado da praia Formosa',
+        description: 'Parque aquático ao lado da praia Formosa.',
         address: 'Rodovia ES-010 - Santa Cruz, Aracruz',
         linkMaps: 'https://www.google.com/maps/place/Sesc+-+Centro+de+Turismo+Social+e+Lazer+de+Praia+Formosa/@-19.9896052,-40.149224,15z/data=!4m2!3m1!1s0x0:0x10012ad663d65dd6?sa=X&ved=2ahUKEwjW1IrRh5n7AhUkpZUCHdU6CZwQ_BJ6BAh7EAU',
         linkComments: 'https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDI3SzYpiM8wYLRSNqhIMk9Ns0gyMjMwNzMyMrUyqDA0MDA0SkwxMzNOMTNNSTHzEi1OLU5WSElVKChKzExUSMsvys0vTgQABpUV7w&q=sesc+de+praia+formosa&oq=sesc+de+praia&aqs=chrome.1.0i355i512j46i175i199i512j69i57j0i512j0i22i30l6.4102j0j9&sourceid=chrome&ie=UTF-8#lrd=0xb7ef8b26076225:0x10012ad663d65dd6,1,,,'
+    },
+    {
+        id: 11,
+        image: Image11,
+        name: 'Restaurante Frutos Da Ilha',
+        description: 'Restaurante com vista para a baia de Vitória.',
+        address: 'Ilha das Caieiras, Vitória',
+        linkMaps: 'https://www.google.com/maps/place/Restaurante+Frutos+Da+Ilha+(Marly)/@-20.2778121,-40.3368558,15z/data=!4m2!3m1!1s0x0:0x8b8a4395f8acc4ec?sa=X&ved=2ahUKEwiNtb6Kn5n7AhW5pJUCHRhdBGoQ_BJ6BAhNEAU',
+        linkComments: 'https://www.google.com/search?q=Restaurante+Frutos+Da+Ilha+(Marly)&oq=Restaurante+Frutos+Da+Ilha+(Marly)&aqs=chrome..69i57j46i175i199i512j69i60l3.348j0j7&sourceid=chrome&ie=UTF-8#lrd=0xb83d31065b9545:0x8b8a4395f8acc4ec,1,,,'
+    },
+    {
+        id: 12,
+        image: Image12,
+        name: "Silva's Restaurante",
+        description: 'Ótimo restaurante de frente para praia de Carapebus.',
+        address: 'Praia de Carapebus, Serra',
+        linkMaps: "https://www.google.com/maps/place/Silva's+Restaurante/@-20.2319357,-40.2142864,15z/data=!4m2!3m1!1s0x0:0x4949031bd67927e0?sa=X&ved=2ahUKEwiMhbWjopn7AhXcpZUCHToDDSEQ_BJ6BAhtEAU",
+        linkComments: 'https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TM4zMK4yMqgyYLRSNqhIsjBMSjM0SrZMtjQxMbQyqDCxNLE0MDZMSjEztzQyTzXwEi7OzClLVC9WKEotLkksLUrMK0kFANq4FWQ&q=silva%27s+restaurante&oq=Silva%27s&aqs=chrome.1.69i57j46i175i199i512l3j0i512j69i60l3.5619j0j4&sourceid=chrome&ie=UTF-8#lrd=0xb81bf12c9c9441:0x4949031bd67927e0,1,,,'
     },
 ]
