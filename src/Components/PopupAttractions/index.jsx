@@ -9,7 +9,7 @@ const Popup = (props) => {
                 <img src={props.image} alt='convento' />
             </div>
             <div className='header-pop-up'>
-                <h1>{props.name}</h1>
+                <h3>{props.name}</h3>
             </div>
             <div className='section-pop-up'>
                 <p><span>Descrição:</span> {props.description}</p>

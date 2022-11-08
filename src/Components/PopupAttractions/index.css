@@ -38,8 +38,9 @@
     background-color: #1C3558;
 }
 
-.header-pop-up h1 {
+.header-pop-up h3 {
     margin: 0;
+    font-size: 1.3rem;
 }
 
 .section-pop-up{

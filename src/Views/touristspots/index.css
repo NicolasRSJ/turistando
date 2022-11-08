@@ -1,6 +1,6 @@
 .Navbar{
     width: 100%;
-    height: 10%;
+    height: 8%;
     background-color: #1C3558;
     box-shadow: rgba(0, 0, 0, 0.781) 0px 5px 15px;
     z-index: 2;
@@ -14,11 +14,54 @@
 .section-touristspots {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c3558ec;
+}
+
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-row{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 0 1rem 0; 
+}
+
+.header-row h1{
+    color: #1C3558;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.header-row h2{
+    color: #1C3558;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.section-row{
+    width: 100%;
+    height: auto;
     display: grid;
     align-content: center;
     justify-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 1.7rem;
     background-color: #1c3558ec;
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 2rem 0;
 }
