@@ -1,16 +1,3 @@
-.Navbar{
-    width: 100%;
-    height: 8%;
-    background-color: #1C3558;
-    box-shadow: rgba(0, 0, 0, 0.781) 0px 5px 15px;
-    z-index: 2;
-}
-
-.Navbar img {
-    width: 80px;
-    height: 70px;
-}
-
 .section-touristspots {
     width: 100%;
     height: auto;
@@ -64,4 +51,22 @@
     grid-row-gap: 1.7rem;
     background-color: #1c3558ec;
     padding: 1rem 0 2rem 0;
+}
+
+@media screen and (max-width: 1024px) { /* Laptop Comum */
+    .section-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) { /* Tablet */
+    .section-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 425px) { /* Smartphones Grandes/Médios/Pequenos */
+    .section-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
